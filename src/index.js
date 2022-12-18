@@ -1,6 +1,7 @@
 import './css/styles.css';
 var debounce = require('lodash.debounce');
 import Notiflix from 'notiflix';
+//import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import fetchCountries from './fetchCountries';
 
 const inputEl = document.querySelector('#search-box');
@@ -9,7 +10,7 @@ const ulEl = document.querySelector('.country-list');
 
 const articleElement = articls => {
   return articls
-    .map(({ name, capital, population, flags, languages, index }) => {
+    .map(({ name, capital, population, flags, languages }, index) => {
       return `<li> Country - ${index + 1} <div class="country-info">
    
    <ul>
@@ -25,6 +26,7 @@ const articleElement = articls => {
     })
     .join('');
 };
+//name.cca3.toLowerCase() languages
 console.log(inputEl);
 const DEBOUNCE_DELAY = 300;
 
@@ -36,6 +38,8 @@ const onInput = event => {
     })
     .then(articls => {
       console.log(articls);
+      console.log(articls[0].cca3.toLowerCase());
+      const lang = articls[0].cca3.toLowerCase();
       if (articls.length > 10) {
         Notiflix.Notify.info(
           'Too many matches found. Please enter a more specific name.'
