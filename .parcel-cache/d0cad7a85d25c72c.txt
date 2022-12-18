@@ -76,7 +76,7 @@
 66C:\PrpjectLessonJS\goit-js-hw-10\node_modules\json5\lib\require.js133151205188772294 0
 78C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\resolver-default\LICENSE133151205184783322 0
 91C:\PrpjectLessonJS\goit-js-hw-10\node_modules\css-tree\lib\syntax\node\AttributeSelector.js133151205188972877 0
-37C:\PrpjectLessonJS\goit-js-hw-10\dist133158339041444328 1
+37C:\PrpjectLessonJS\goit-js-hw-10\dist133158475601510420 1
 76C:\PrpjectLessonJS\goit-js-hw-10\node_modules\postcss-value-parser\README.md133151205188468256 0
 68C:\PrpjectLessonJS\goit-js-hw-10\node_modules\nan\tools\package.json133151205191551051 0
 127C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\foo.js133151205191571402 0
@@ -161,7 +161,7 @@
 87C:\PrpjectLessonJS\goit-js-hw-10\node_modules\caniuse-lite\data\features\css-nesting.js133151205198527397 0
 77C:\PrpjectLessonJS\goit-js-hw-10\node_modules\css-select\lib\compile.d.ts.map133151205190344243 0
 69C:\PrpjectLessonJS\goit-js-hw-10\node_modules\lmdb-win32-x64\index.js133151205184226305 0
-45C:\PrpjectLessonJS\goit-js-hw-10\src\index.js133158339038005949 0
+45C:\PrpjectLessonJS\goit-js-hw-10\src\index.js133158475596265291 0
 68C:\PrpjectLessonJS\goit-js-hw-10\node_modules\yaml\browser\schema.js133151205192484954 0
 78C:\PrpjectLessonJS\goit-js-hw-10\node_modules\react-error-overlay\lib\index.js133151205188200622 0
 81C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\compressor-raw\package.json133151205186703924 0
@@ -4719,8 +4719,8 @@
 57C:\PrpjectLessonJS\goit-js-hw-10\node_modules\.bin\terser133151205212283632 0
 61C:\PrpjectLessonJS\goit-js-hw-10\node_modules\.bin\terser.ps1133151205212283632 0
 56C:\PrpjectLessonJS\goit-js-hw-10\dist\index.77a9bc14.css133158336014386432 0
-55C:\PrpjectLessonJS\goit-js-hw-10\dist\index.975ef6c8.js133158339041374562 0
-59C:\PrpjectLessonJS\goit-js-hw-10\dist\index.975ef6c8.js.map133158339041434377 0
+55C:\PrpjectLessonJS\goit-js-hw-10\dist\index.975ef6c8.js133158475601432320 0
+59C:\PrpjectLessonJS\goit-js-hw-10\dist\index.975ef6c8.js.map133158475601483547 0
 65C:\PrpjectLessonJS\goit-js-hw-10\assets\actions-config-step-1.png133151195106605729 0
 65C:\PrpjectLessonJS\goit-js-hw-10\assets\actions-config-step-2.png133151195106917953 0
 56C:\PrpjectLessonJS\goit-js-hw-10\assets\how-it-works.png133151195107386823 0

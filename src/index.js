@@ -38,9 +38,10 @@ const onInput = event => {
     .then(articls => {
       console.log(articls);
       if (articls.length > 10) {
-        Notiflix.Notify.info(
-          'Too many matches found. Please enter a more specific name.'
-        );
+        console.log(articls);
+        // Notiflix.Notify.info(
+        //  'Too many matches found. Please enter a more specific name.'
+        //);
       } else {
         console.log(articls);
         ulEl.innerHTML = articleElement(articls);
