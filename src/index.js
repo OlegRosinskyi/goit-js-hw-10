@@ -9,7 +9,7 @@ const ulEl = document.querySelector('.country-list');
 
 const articleElement = articls => {
   return articls
-    .map(({ name, capital, population, flags, languages }, index) => {
+    .map(({ name, capital, population, flags, languages, index }) => {
       return `<li> Country - ${index + 1} <div class="country-info">
    
    <ul>
@@ -37,7 +37,9 @@ const onInput = event => {
     .then(articls => {
       console.log(articls);
       if (articls.length > 10) {
-        console.log(articls);
+        Notiflix.Notify.info(
+          'Too many matches found. Please enter a more specific name.'
+        );
       } else {
         console.log(articls);
         ulEl.innerHTML = articleElement(articls);
