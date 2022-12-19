@@ -33,8 +33,8 @@ const DEBOUNCE_DELAY = 300;
 const onInput = event => {
   fetchCountries(event.target.value)
     .then(result => {
-      const resultList = result.json();
-      return resultList;
+      //let resultList = result.json();
+      return result.json();
     })
     .then(articls => {
       console.log(articls);
