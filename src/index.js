@@ -10,7 +10,7 @@ const ulEl = document.querySelector('.country-list');
 
 const articleElement = articls => {
   return articls
-    .map(({ name, capital, population, flags, languages }, index) => {
+    .map(({ name, capital, population, flags, languages, cca3 }, index) => {
       return `<li> Country - ${index + 1} <div class="country-info">
    
    <ul>
@@ -18,7 +18,7 @@ const articleElement = articls => {
     <li> <p>capital: ${capital} </p> </li>
     <li> <p>population: ${population} </p></li> 
     <li> flags: <img src="${flags.svg}" width="100px"alt="flag"> </li>
-    <li> <p>languages: ${languages}</p>
+    <li> <p>languages: ${cca3}</p>
     
     </ul>
     </div>
@@ -39,11 +39,13 @@ const onInput = event => {
     .then(articls => {
       console.log(articls);
       if (articls.status === 404) {
+        ulEl.innerHTML = '';
         Notiflix.Notify.failure('Oops, there is no country with that name');
       } else {
         // console.log(articls[0].cca3.toLowerCase());
-        const lang = articls[0].cca3.toLowerCase();
+        //const lang = articls[0].cca3.toLowerCase();
         if (articls.length > 10) {
+          ulEl.innerHTML = '';
           Notiflix.Notify.info(
             'Too many matches found. Please enter a more specific name.'
           );
@@ -53,7 +55,10 @@ const onInput = event => {
         }
       }
     })
-    .catch(err => console.log(err));
+    .catch(err => {
+      console.log(err);
+      ulEl.innerHTML = '';
+    });
 };
 
 inputEl.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
