@@ -38,15 +38,19 @@ const onInput = event => {
     )
     .then(articls => {
       console.log(articls);
-      console.log(articls[0].cca3.toLowerCase());
-      const lang = articls[0].cca3.toLowerCase();
-      if (articls.length > 10) {
-        Notiflix.Notify.info(
-          'Too many matches found. Please enter a more specific name.'
-        );
+      if (articls.status === 404) {
+        Notiflix.Notify.failure('Oops, there is no country with that name');
       } else {
-        console.log(articls);
-        ulEl.innerHTML = articleElement(articls);
+        // console.log(articls[0].cca3.toLowerCase());
+        const lang = articls[0].cca3.toLowerCase();
+        if (articls.length > 10) {
+          Notiflix.Notify.info(
+            'Too many matches found. Please enter a more specific name.'
+          );
+        } else {
+          console.log(articls);
+          ulEl.innerHTML = articleElement(articls);
+        }
       }
     })
     .catch(err => console.log(err));
