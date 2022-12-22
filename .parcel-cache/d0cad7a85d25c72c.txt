@@ -101,7 +101,7 @@
 56C:\PrpjectLessonJS\goit-js-hw-10\node_modules\source-map133151205190290937 1
 59C:\PrpjectLessonJS\goit-js-hw-10\node_modules\acorn\LICENSE133151205185285049 0
 76C:\PrpjectLessonJS\goit-js-hw-10\node_modules\csso\lib\replace\Percentage.js133151205192884137 0
-45C:\PrpjectLessonJS\goit-js-hw-10\package.json133154035444891580 0
+45C:\PrpjectLessonJS\goit-js-hw-10\package.json133161868778585304 0
 64C:\PrpjectLessonJS\goit-js-hw-10\node_modules\.package-lock.json133154035445116484 0
 55C:\PrpjectLessonJS\goit-js-hw-10\node_modules\path-type133151205186787187 1
 93C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\transformer-sass\lib\SassTransformer.js133151205185295176 0
@@ -161,7 +161,7 @@
 87C:\PrpjectLessonJS\goit-js-hw-10\node_modules\caniuse-lite\data\features\css-nesting.js133151205198527397 0
 77C:\PrpjectLessonJS\goit-js-hw-10\node_modules\css-select\lib\compile.d.ts.map133151205190344243 0
 69C:\PrpjectLessonJS\goit-js-hw-10\node_modules\lmdb-win32-x64\index.js133151205184226305 0
-45C:\PrpjectLessonJS\goit-js-hw-10\src\index.js133161860850749285 0
+45C:\PrpjectLessonJS\goit-js-hw-10\src\index.js133161861733327990 0
 68C:\PrpjectLessonJS\goit-js-hw-10\node_modules\yaml\browser\schema.js133151205192484954 0
 78C:\PrpjectLessonJS\goit-js-hw-10\node_modules\react-error-overlay\lib\index.js133151205188200622 0
 81C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\compressor-raw\package.json133151205186703924 0
