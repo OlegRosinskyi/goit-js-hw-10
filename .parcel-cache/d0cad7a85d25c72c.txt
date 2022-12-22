@@ -101,7 +101,7 @@
 56C:\PrpjectLessonJS\goit-js-hw-10\node_modules\source-map133151205190290937 1
 59C:\PrpjectLessonJS\goit-js-hw-10\node_modules\acorn\LICENSE133151205185285049 0
 76C:\PrpjectLessonJS\goit-js-hw-10\node_modules\csso\lib\replace\Percentage.js133151205192884137 0
-45C:\PrpjectLessonJS\goit-js-hw-10\package.json133161868778585304 0
+45C:\PrpjectLessonJS\goit-js-hw-10\package.json133161874506816342 0
 64C:\PrpjectLessonJS\goit-js-hw-10\node_modules\.package-lock.json133154035445116484 0
 55C:\PrpjectLessonJS\goit-js-hw-10\node_modules\path-type133151205186787187 1
 93C:\PrpjectLessonJS\goit-js-hw-10\node_modules\@parcel\transformer-sass\lib\SassTransformer.js133151205185295176 0
