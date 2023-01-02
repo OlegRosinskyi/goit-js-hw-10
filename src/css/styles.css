@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -18,3 +19,38 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+ .list{
+  list-style: none;
+  padding-left: 0;
+  margin: 0px;
+  
+ }
+
+ .all_list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items:baseline;
+  
+ }
+ .item_text {
+  font-size: 16px;
+  margin: 0px;
+
+ }
+ .item_text_on{
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+ }
+ .item_text_S{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+ 
+
+ }
+ .item_text_h{
+font-size: 24px;
+ 
+ }
