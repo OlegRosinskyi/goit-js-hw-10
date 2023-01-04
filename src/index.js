@@ -11,7 +11,7 @@ const divEl = document.querySelector('.country-info');
 
 const articleElement = articls => {
   return articls
-    .map(({ name, capital, population, flags, languages, cca3 }, index) => {
+    .map(({ name, capital, population, flags, languages }, index) => {
       if (articls.length === 1) {
         return `
    
@@ -74,7 +74,7 @@ const onInput = event => {
           ulEl.innerHTML = '';
           Notiflix.Notify.failure('Oops, there is no country with that name');
         } else {
-          console.log(articls[0].languages[0]);
+          //console.log(articls[0].languages[0]);
           //const lang = articls[0].cca3.toLowerCase();
           if (articls.length > 10) {
             ulEl.innerHTML = '';
