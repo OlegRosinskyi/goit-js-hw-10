@@ -33,7 +33,7 @@ const articleElement = articls => {
     <li> <ul class="all_list list">
     <li ><h3 class="item_text_S"> Languages: </h3> </li>
     <li> <p class="item_text_on"> ${Object.values(languages)} </p> </li> 
-    </ul> </li>
+    </ul> 
 
     </ul>
    `;
